@@ -1,0 +1,27 @@
+.parent {
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+  align-items: center;
+  height: 150vh;
+  width: 800px;
+}
+
+.child {
+  width: 250px;
+  height: 250px;
+  border-radius: 200px;
+  background-color: skyblue;
+}
+
+.child:nth-child(4),
+:nth-child(5),
+:nth-child(6) {
+  background-color: gray;
+}
+
+.child:nth-child(7),
+:nth-child(8),
+:nth-child(9) {
+  background-color: green;
+}
